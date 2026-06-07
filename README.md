@@ -35,7 +35,7 @@ The environment used is `highway-v0` from the `highway-env` library, which simul
 
 To overcome the limitations of the default environment reward function (which could cause the agent to perform reward hacking or remain stationary to avoid crashes), we developed a custom `HighwayRewardWrapper`. The reward $R$ at each step is calculated as:
 
-$$R = R_{\text{speed}} + R_{\text{collision}} + R_{\text{tailgating}} + R_{\text{lane\_change}} + R_{\text{right\_lane}} + R_{\text{off\_road}}$$
+$R = R_{\text{speed}} + R_{\text{collision}} + R_{\text{tailgating}} + R_{\text{lane\_change}} + R_{\text{right\_lane}} + R_{\text{off\_road}}$
 
 Where:
 
