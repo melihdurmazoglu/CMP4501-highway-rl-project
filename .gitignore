@@ -1,5 +1,8 @@
+venv/
 __pycache__/
 *.pyc
 .DS_Store
 *.egg-info/
-venv/
+models/
+src/render_test.py
+test_env.py

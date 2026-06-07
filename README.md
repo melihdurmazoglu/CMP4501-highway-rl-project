@@ -5,6 +5,7 @@
 **Course:** CMP4501 – Reinforcement Learning  
 **Environment:** highway-v0 (highway-env)  
 **Algorithm:** Proximal Policy Optimization (PPO)
+**GitHub:** [https://github.com/melihdurmazoglu/CMP4501-highway-rl-project]
 
 ---
 
