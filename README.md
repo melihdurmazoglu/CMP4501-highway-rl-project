@@ -90,6 +90,10 @@ The agent was trained using **parallelized environments** (`SubprocVecEnv` with 
 | Half-trained | 100,000 | Active lane changes, maintains speed, occasionally tailgates |
 | Fully trained | 200,000 | Smooth high-speed overtaking, safe distance keeping, right lane discipline |
 
+### Evolution Video
+
+https://github.com/melihdurmazoglu/CMP4501-highway-rl-project/blob/main/assets/evolution.mp4
+
 ### Training Reward Plot
 
 ![Training Reward](assets/reward_plot.png)
@@ -124,9 +128,6 @@ highway-rl-project/
 │   ├── renderer.py        # Custom Pygame renderer
 │   ├── merge_videos.py    # Side-by-side comparison video builder
 │   └── plot_rewards.py    # Multi-episode evaluation reward plotter
-├── models/
-│   ├── ppo_highway_half.zip   # Checkpoint at 100,000 timesteps
-│   └── ppo_highway_full.zip   # Final model at 200,000 timesteps
 ├── videos/
 │   ├── untrained.mp4
 │   ├── half_trained.mp4
